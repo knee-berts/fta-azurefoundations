@@ -35,36 +35,58 @@ When you feel that you are familiar and comfortable with the credentialing topic
 
 #### Core Concepts
 - Understand Kubernetes API primitives
+  - https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/#understanding-kubernetes-objects
 - Create and configure basic Pods
+  - https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
   
 #### Configuration
 - Understand ConfigMaps
+  - https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/
 - Understand SecurityContexts
+  - https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
 - Define an application's resource requirements
+  - https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
 - Create & consume Secrets
+  - https://kubernetes.io/docs/concepts/configuration/secret/
 - Understand Service Accounts
+  - https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
   
 #### Multi-Container Pods
 - Understand Multi-Container Pod design patterns (e.g. ambassador, adapter,sidecar)
-  
+  - https://kubernetes.io/docs/concepts/cluster-administration/logging/
+  - https://kubernetes.io/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume/
+  - https://medium.com/@santhoz/nginx-sidecar-reverse-proxy-for-performance-http-to-https-redirection-in-kubernetes-dd9dbe2fd0c7
 #### Observability
 - Understand LivenessProbes and ReadinessProbes
+  - https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
+  - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/
 - Understand container logging
-- Understand hot to monitor applications in Kubernetes
+  - https://kubernetes.io/docs/concepts/cluster-administration/logging/
+- Understand how to monitor applications in Kubernetes
+  - 
 - Understand debugging in Kubernetes
+  - https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application-introspection/
 
 #### Pod Design
 - Understand how to use Labels, Selectors, and Annotations
-- Understand Deployments and hot to perform rolling updates
-- Understand Deployments and hot to perform rollbacks
+  - https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
+- Understand Deployments and hot to perform rolling updates and rollbacks
+  - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/ 
 - Understand Jobs and CronJobs
+  - https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/
+  - https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
 
 #### Servics & Networking
 - Understand Services
+  - https://kubernetes.io/docs/concepts/services-networking/service/
 - Demonstrate basic understanding of NetworkPolicies
+  - https://kubernetes.io/docs/concepts/services-networking/network-policies/
+- Ingress
+  - https://kubernetes.io/docs/concepts/services-networking/ingress/
 
 #### State Persistence
 - Understand PersitentVolumeClaims for storage
+  - https://kubernetes.io/docs/concepts/storage/dynamic-provisioning/
 
 #### Azure Container Registry
 Azure Container Registry is a managed Docker registry service based on the open-source Docker Registry 2.0. Create and maintain Azure container registries to store and manage your private Docker container images.
